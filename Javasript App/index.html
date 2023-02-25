@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Javasript App</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <nav>
+        <p id="number">Number of Quotes: <span id="count"></span></p>
+    </nav>
+    <figure id="quotebox"> 
+        <div>
+            <img src="treelogo.png" alt="" id="logo">
+        </div>
+        <blockquote id="text">&ldquo;When you learn a new word, you suddenly see it everywhere. The mind comforts itself by believing this to be coincidence but isn’t—it’s ignorance falling away. Your future self will always see what your present self is blind to. This is the problem with mortality, which is in fact a problem of time.&rdquo;</blockquote>
+        <cite id="writer">- Olivie Blake, </cite><cite id="book">Alone With You in the Ether</cite>
+        <p id="cat">Philisophical</p>
+        <button onclick="quote()">New Quote!</button>
+    </figure>
+    <script src="data.js"></script>
+    <script src="logic.js"></script>
+</body>
+</html>

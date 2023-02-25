@@ -1,0 +1,71 @@
+body {
+    background-color: #F5CAC3;
+}
+#quotebox {
+    border-style: dotted;
+    border-width: 3px;
+    border-color: black;
+    background-color: #f7ede2;
+}
+#count {
+    color: black;
+
+}
+#number {
+    color: black;
+
+}
+#logo {
+    height: 200px;
+    width: 200px;
+    padding-top: 15px;
+}
+/* #buttonlol {
+    position: fixed;
+} */
+blockquote {
+    border-left: .35rem solid #F6BD60;
+    color: rgba(70, 67, 67, 0.808);
+}
+#quotebox {
+    height: 575px;
+    width: 750px;
+    box-sizing: border-box;
+    position: relative;
+}
+figcaption {
+    position: relative;
+    left: 15em;
+    color: rgba(70, 67, 67, 0.693);
+    margin-bottom: 0;
+}
+button {
+    background-color: #84A59D;
+    position: absolute;
+    bottom: 1em;
+    left: 40%;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+#writerbook {
+    display: inline;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+#book {
+    font-style: italic;
+    color: rgb(189, 181, 181);
+    font-size: 1rem;
+}
+#cat {
+    color: rgb(189, 181, 181);
+    font-size: .9rem;
+}
+/* #writer {
+    font: smaller;
+} */
+#writer {
+    font-size: 1.15rem;
+}
